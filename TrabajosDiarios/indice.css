@@ -1,0 +1,41 @@
+/*
+    23 de Noviembre de 2022
+    Autor: Juan Miguel Pardo Asensio
+    Hoy juega España el primer partido del mundial que va a ganar
+*/
+
+*{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-image: url(./IMG/españa.jpg);
+    background-size: cover;
+}
+
+header, footer{
+    background-image: linear-gradient(to bottom, red, yellow);
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+div{
+    padding: 15px;
+    margin: 40px;
+    width: 40%;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, red, yellow);
+}
+
+div:hover{
+    transform: scale(0.8);
+}
