@@ -1,3 +1,8 @@
+/*
+    19 de Octubre de 2022
+    Autor:Juan Miguel Pardo Asensio
+*/
+
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -5,7 +10,7 @@
 
 .menuH a,.menuV a{
     background-color: #0000FF;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration:none;
     float: left;
     width: 25%;
@@ -22,6 +27,10 @@ body{
     margin: 20px auto 20px auto;
 }
 
+.menuV{
+    width: 50%;
+    float: left;
+}
 
 .menuH a:hover,.menuV a:hover{
     background-color: #3db6f7;
@@ -34,7 +43,3 @@ body{
     width: 30%;
 }
 
-.menuV{
-    width: 50%;
-    float: left;
-}

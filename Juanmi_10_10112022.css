@@ -1,0 +1,39 @@
+/*
+    Práctica diaria 10
+    Juan Miguel Pardo Asensio
+    Noviembre de 2022
+    10 dias para el mundial
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header,footer{
+    background-color: rgb(203, 39, 39);
+    color: white;
+    padding: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+}
+img{
+    width: 50px;
+}
+
+h1{
+    text-shadow: 5px 5px 5px black;
+}
+
+section{
+    box-shadow: 5px -5px 20px  rgb(0, 0, 0);
+    margin: 20px 10px 20px 10px;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+}

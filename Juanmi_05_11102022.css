@@ -1,0 +1,47 @@
+/*
+    11 de Octubre de 2022
+    Autor:Juan Miguel Pardo Asensio
+*/
+
+*{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.linea{
+    padding: 60px;
+}
+
+p{
+    padding-top: 38%;
+}
+
+.bola{
+    float:left;
+    margin: 30px 0px 30px 0px;
+    width: 25%;
+    height: 425px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#lineaNegra{
+    background-color: rgb(97, 97, 97);
+}
+
+#lineaVerde{
+    background-color: rgb(87, 241, 87);
+    clear: both;
+}
+
+#bolaAzul{
+    background-color: blue;
+}
+
+#bolaAmarilla{
+background-color: yellow;
+}
+
+#bolaRoja{
+    background-color: red;
+}
