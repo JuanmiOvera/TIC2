@@ -1,0 +1,376 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*ESTO ES EL HEADER*/
+
+header{
+    height: 130px;
+}
+
+.headerRedes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    height: 30px;
+}
+
+.redesSociales{
+    margin: 0% 3% 0% 2%;
+}
+
+.redesSociales img{
+    height: 30px;
+    padding-left: 20px;
+}
+
+.redesSociales a{
+    text-decoration: none;
+}
+
+#mensaje{
+    font-size: 15px;
+    font-family: 'Eczar', serif;
+    text-align: center;
+    color: white;
+}
+
+.headerClub{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    height: 100px;
+    width: 95%;
+}
+
+.headerClub img{
+    margin: 15px;
+}
+
+.escudoOvera img{
+    height: 70px;
+    width: 70px;
+}
+
+.nombreClub{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(67, 67, 67);
+    font-family: 'Eczar', serif;
+}
+
+#menu{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: 0% 5% 0% 5%;
+}
+
+#menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    width: 20%;
+    color:  rgb(67, 67, 67);
+    font-family: 'Eczar', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    background-color: #dcdcdc;
+}
+
+.blogspot img{
+    height: 50px;
+    width: 50px;
+}
+
+.blogspot:hover{
+    transform: scale(1.1);
+}
+
+/*ESTO ES EL MAIN*/
+
+.titular{
+    background-image: linear-gradient(to right,black, white);
+    -webkit-text-stroke: black 2px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    height: 150px;
+}
+
+video{
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    border: black 1px solid;
+}
+
+/*TIENDA*/
+
+#tienda{
+    height: 760px;
+    background-color: black;
+}
+
+#tienda div{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s ease;
+    position: absolute;
+}
+
+#equipación{
+    border: 4px black solid;
+    margin: 110px 30px 0px 750px;
+    width: 500px;
+    height: 500px;
+    background-image: url(./IMG/equipacion_overa.PNG);
+}
+
+#equipación:hover{
+    transform: scale(1.2);
+}
+
+#dinero{
+    width: 300px;
+    height: 300px;
+    margin: 250px 0px 0px 220px;
+    background-image: url(./IMG/dinero.png)
+}
+
+#logoTienda{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 15px 0px 0px 50px;
+    background-image: url(./IMG/logo_tienda.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button{
+    position: absolute;
+    margin: 570px 0px 0px 160px;
+    width: 400px;
+    height: 50px;
+    border: 1px black solid;
+    background-color: whitesmoke;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px 20px 12px 20px;
+}
+
+#button:hover{
+    transform: scale(1.2);
+    border-radius: 15px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+/*SPONSORS*/
+
+#sponsors{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5%;
+    height: 1000px;
+    background-color: black;
+    padding: 30px;
+}
+
+#sponsors a{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transition: all 0.5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sponsors a:hover{
+    transform: scale(1.1) rotate(10deg);
+}
+
+/*HE HECHO UNA LISTA DE SPONSORS USANDO LA PROPIEDAD background-image EN VEZ
+DE METER EL ELEMENTO <img> DENTRO DE LOS <a> YA QUE SI LO HAGO ASÍ NO PUEDO
+AJUSTAR EL TAMAÑO DEL <a> SIN MODIFICAR LA IMAGEN QUE LLEVA DENTRO*/
+
+#sp1{
+    background-image: url(/Proyecto/IMG/hotel_overa.png);
+}
+
+#sp2{
+    background-image: url(/Proyecto/IMG/mapetan.png);
+}
+
+#sp3{
+    background-image: url(/Proyecto/IMG/huercal_overa1.png);
+}
+
+#sp4{
+    background-image: url(/Proyecto/IMG/cajamar.png);
+}
+
+#sp5{
+    background-image: url(/Proyecto/IMG/oscar.png);
+}
+
+#sp6{
+    background-image: url(/Proyecto/IMG/farmacia_overa.png);
+}
+
+#sp7{
+    background-image: url(/Proyecto/IMG/seat.png);
+}
+
+#sp8{
+    background-image: url(/Proyecto/IMG/la_moncloa.PNG);
+}
+
+#sp9{
+    background-image: url(/Proyecto/IMG/cruzcampo.png);
+}
+
+#sp10{
+    background-image: url(/Proyecto/IMG/panaderia.png);
+}
+
+#sp11{
+    background-image: url(/Proyecto/IMG/palomeros.PNG);
+}
+
+#sp12{
+    background-image: url(/Proyecto/IMG/coca_cola.png);
+}
+
+#sp13{
+    background-image: url(/Proyecto/IMG/salon_social.png);
+}
+
+#sp14{
+    background-image: url(/Proyecto/IMG/paso_negro.png);
+}
+
+#sp15{
+    background-image: url(/Proyecto/IMG/bar_fuentes.png);
+}
+
+#sp16{
+    background-image: url(/Proyecto/IMG/adidas.png);
+}
+
+#redesSociales{
+    height: 100px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redesSociales a{
+    margin: 2em 2em 2em 2em;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#redesSociales a:hover{
+    transform: scale(1.1);
+}
+
+#redesSociales img{
+    height: 60px;
+    width: 60px;
+}
+
+/*CONTÁCTENOS = FORMULARIO + MAPA*/
+  
+.contacto{
+    width: 80%;
+    margin: auto;
+    padding: 15px; 
+    margin-bottom: 10px;
+}
+  
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+  
+.formulario > *{
+    margin: 10px 0px 0px 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+iframe{
+    display: block;
+    margin: 20px 15% 20px 15%;
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+audio{
+    display: block;
+    margin: 20px 15% 20px 15%;
+    width: 70%;
+    height: 50px;
+}
+
+
+/*ESTO ES EL FOOTER*/
+
+footer{
+    background-color: black;
+}
+
+.pieDePagina{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 5% 0% 5%;
+    padding: 25px 0% 25px 0%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+.menuFooter{
+    width: 60%;
+}
+
+.menuFooter a{
+    padding: 0% 5% 0% 5%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#escudoOvera img{
+    height: 60px;
+    width: 60px;
+}
