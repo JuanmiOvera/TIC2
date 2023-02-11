@@ -1,0 +1,119 @@
+/*SPONSORS*/
+
+#sponsors{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5%;
+    height: 1000px;
+    background-color: black;
+    padding: 30px;
+}
+
+#sponsors a{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transition: all 0.5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sponsors a:hover{
+    transform: scale(1.1) rotate(10deg);
+}
+
+/*HE HECHO UNA LISTA DE SPONSORS USANDO LA PROPIEDAD background-image EN VEZ
+DE METER EL ELEMENTO <img> DENTRO DE LOS <a> YA QUE SI LO HAGO ASÍ NO PUEDO
+AJUSTAR EL TAMAÑO DEL <a> SIN MODIFICAR LA IMAGEN QUE LLEVA DENTRO*/
+
+#sp1{
+    background-image: url(/Proyecto/IMG/hotel_overa.png);
+}
+
+#sp2{
+    background-image: url(/Proyecto/IMG/mapetan.png);
+}
+
+#sp3{
+    background-image: url(/Proyecto/IMG/huercal_overa1.png);
+}
+
+#sp4{
+    background-image: url(/Proyecto/IMG/cajamar.png);
+}
+
+#sp5{
+    background-image: url(/Proyecto/IMG/oscar.png);
+}
+
+#sp6{
+    background-image: url(/Proyecto/IMG/farmacia_overa.png);
+}
+
+#sp7{
+    background-image: url(/Proyecto/IMG/seat.png);
+}
+
+#sp8{
+    background-image: url(/Proyecto/IMG/la_moncloa.PNG);
+}
+
+#sp9{
+    background-image: url(/Proyecto/IMG/cruzcampo.png);
+}
+
+#sp10{
+    background-image: url(/Proyecto/IMG/panaderia.png);
+}
+
+#sp11{
+    background-image: url(/Proyecto/IMG/palomeros.PNG);
+}
+
+#sp12{
+    background-image: url(/Proyecto/IMG/coca_cola.png);
+}
+
+#sp13{
+    background-image: url(/Proyecto/IMG/salon_social.png);
+}
+
+#sp14{
+    background-image: url(/Proyecto/IMG/paso_negro.png);
+}
+
+#sp15{
+    background-image: url(/Proyecto/IMG/bar_fuentes.png);
+}
+
+#sp16{
+    background-image: url(/Proyecto/IMG/adidas.png);
+}
+
+#redesSociales{
+    height: 100px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redesSociales a{
+    margin: 2em 2em 2em 2em;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#redesSociales a:hover{
+    transform: scale(1.1);
+}
+
+#redesSociales img{
+    height: 60px;
+    width: 60px;
+}

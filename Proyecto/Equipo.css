@@ -1,0 +1,73 @@
+#equipo{
+    display: inline-block;
+    height: 1650px;
+}
+
+#equipo iframe{
+    margin: 0px 10px 20px 40px;
+}
+
+table{
+    width: 1260px;
+    margin: 40px;
+    border-collapse: collapse;
+    text-align: center;
+    color: black;
+    font-family: 'Eczar', serif;
+    font-size: 20px;
+}
+
+table img{
+    width: 70px;
+}
+
+th{
+    color: white;
+    background-color: #1c0d02;
+}
+
+td,th{
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+.equipo{
+    float: right;
+    width: 500px;
+    height: 800px;
+    margin: 50px 40px 0px 30px;
+    font-family: sans-serif;
+}
+
+dt{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+dd{
+    margin-bottom: 25px;
+}
+
+ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 6px 0px 6px 50px;
+}
+
+.delantero{
+    background-image: url(./IMG/delantero.png);
+}
+.centrocampista{
+    background-image: url(./IMG/pelota.png);
+}
+.defensa{
+    background-image: url(./IMG/defensa.png);
+}
+.portero{
+    background-image: url(./IMG/portero.png);
+}

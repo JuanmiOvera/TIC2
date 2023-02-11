@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 130px;
+}
+
+.headerRedes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    height: 30px;
+}
+
+.redesSociales{
+    margin: 0% 3% 0% 2%;
+}
+
+.redesSociales img{
+    height: 30px;
+    padding-left: 20px;
+}
+
+.redesSociales a{
+    text-decoration: none;
+}
+
+#mensaje{
+    font-size: 15px;
+    font-family: 'Eczar', serif;
+    text-align: center;
+    color: white;
+}
+
+.headerClub{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    height: 100px;
+    width: 95%;
+}
+
+.headerClub img{
+    margin: 15px;
+}
+
+.escudoOvera img{
+    height: 70px;
+    width: 70px;
+}
+
+.nombreClub{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(67, 67, 67);
+    font-family: 'Eczar', serif;
+}
+
+#menu{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: 0% 5% 0% 5%;
+}
+
+#menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    width: 25%;
+    color:  rgb(67, 67, 67);
+    font-family: 'Eczar', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    background-color: #dcdcdc;
+}
+
+.blogspot img{
+    height: 50px;
+    width: 50px;
+}
+
+.blogspot:hover{
+    transform: scale(1.1);
+}

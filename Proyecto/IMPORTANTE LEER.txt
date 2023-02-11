@@ -1,0 +1,7 @@
+Mi página web no es responsive, ya que cuando comencé a hacer el proyecto no sabía usar propiedades como
+display:flex / grid o position: relative, por lo que empecé a alinear los elementos con otras propiedades,
+como position absolute. Al tener mi web un modelo One Page Scroll y estar todo el contenido de la página en
+un solo archivo html, he preferido dejarlo como estaba a empezar a tocarle ahora, que sé mucho más que al inicio,
+ya que son muchas líneas de código y sería muy lioso. La página web se ve bien, pero al redimensionarla la sección
+tienda dentro del main se desajusta bastante por lo mencionado previamente. Aún así me he esforzado bastante y
+le he dedicado mucho tiempo a terminar el proyecto.
